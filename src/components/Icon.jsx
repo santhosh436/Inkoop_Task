@@ -25,7 +25,7 @@ const Icon = () => {
         ></motion.div>
 
         <motion.div 
-          className="absolute left-[37px] bottom-[-30px] h-[121px] w-5 bg-black rotate-45 rounded-lg"
+          className="absolute left-[36.5px] bottom-[-31px] h-[121px] w-5 bg-black rotate-45 rounded-lg"
           initial={{ opacity: 0, scale: 1.2, rotate: 30 }}
           animate={{ opacity: 1, scale: 1, rotate: 45 }}
           transition={{ duration: 0.5, delay: 0.6, type: 'spring', stiffness: 100 }}
