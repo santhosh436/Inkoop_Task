@@ -14,7 +14,7 @@ const WelcomePage = ({ onComplete }) => {
     <div className="flex flex-col items-center justify-center h-screen bg-green-800">
       <Icon />
       <motion.h1
-        className="text-3xl font-poppins font-bold text-white flex mt-8 ml-20 tracking-[8px]"
+        className="text-3xl font-poppins font-bold text-white flex mt-4 sm:mt-8 sm:ml-20 tracking-[8px]"
         initial={{ y: 20, opacity: 0, filter: "blur(10px)" }}
         animate={{ y: 0, opacity: 1, filter: "blur(0px)" }}
         transition={{ duration: 2, ease: "easeOut" }}

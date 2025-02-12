@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Icon = () => {
   return (
-    <div className="flex items-center justify-center h-24 w-24">
+    <div className="flex items-center justify-center h-24 w-24 mr-16 sm:mr-2">
       {/* "I" Letter */}
       <motion.div 
         className="h-24 w-5 bg-black rounded-sm"

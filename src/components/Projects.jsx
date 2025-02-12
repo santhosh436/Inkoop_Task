@@ -30,7 +30,7 @@ const Projects = () => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className=" w-32 text-center px-4 py-2 bg-green-800 text-white text-sm font-semibold rounded-full hover:bg-gray-900 text-white transition"
+              className=" w-32 text-center px-4 py-2 bg-green-800 text-sm font-semibold rounded-full hover:bg-gray-900 text-white transition"
             >
               {index >= 4 ? "Check" : "View Project"}
             </a>
